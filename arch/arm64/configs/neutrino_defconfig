@@ -1,10 +1,10 @@
 #
 # Automatically generated file; DO NOT EDIT.
-# Linux/arm64 4.19.196 Kernel Configuration
+# Linux/arm64 4.19.205 Kernel Configuration
 #
 
 #
-# Compiler: aarch64-elf-gcc (Neutrino GCC) 11.2.1 20210828
+# Compiler: aarch64-elf-gcc (Neutrino GCC) 11.2.1 20210829
 #
 CONFIG_CC_IS_GCC=y
 CONFIG_GCC_VERSION=110201
@@ -19,7 +19,7 @@ CONFIG_THREAD_INFO_IN_TASK=y
 #
 CONFIG_INIT_ENV_ARG_LIMIT=32
 # CONFIG_COMPILE_TEST is not set
-CONFIG_LOCALVERSION="-NeutrinoKernel-kamino"
+CONFIG_LOCALVERSION="-NeutrinoKernel-lothal"
 # CONFIG_LOCALVERSION_AUTO is not set
 CONFIG_BUILD_SALT=""
 CONFIG_HAVE_KERNEL_GZIP=y
