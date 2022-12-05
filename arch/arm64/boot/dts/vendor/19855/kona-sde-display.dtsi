@@ -226,7 +226,7 @@
 		vout-supply = <&L2C>;
 		avdd-supply = <&display_panel_avdd>;
 		qcom,mdp = <&mdss_mdp>;
-		qcom,dsi-default-panel = <&dsi_oplus19101samsung_amb655uv01_1080_2400_cmd>;
+		qcom,dsi-default-panel = <&dsi_oppo19101samsung_amb655uv01_1080_2400_cmd>;
 		//pxlw,iris-lightup-config = <&mdss_iris_cfg_oplus19065_samsung_1440_3168_dsc_cmd>;
 		pxlw,soft-iris-enable;
 		//#endif
@@ -264,7 +264,7 @@
 		vout-supply = <&L2C>;
 
 		avdd-supply = <&display_panel_avdd>;
-		qcom,dsi-default-panel = <&dsi_oplus19065_samsung_1440_3168_dsc_cmd>;
+		qcom,dsi-default-panel = <&dsi_oppo19065_samsung_1440_3168_dsc_cmd>;
 		qcom,mdp = <&mdss_mdp>;
 	};
 
@@ -275,7 +275,7 @@
 	};
 	msm_notifier: qcom,msm_notifier@0 {
 		compatible = "qcom,msm-notifier";
-		panel = <&dsi_oplus19065_samsung_1440_3168_dsc_cmd>;
+		panel = <&dsi_oppo19065_samsung_1440_3168_dsc_cmd>;
 	};
         //#endif
 };
